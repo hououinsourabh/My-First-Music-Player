@@ -57,15 +57,15 @@ win.config(menu=mainmenu)
 mainmenu.add_cascade(label='Edit', menu=m2)
 
                 
-icon = Image.open(r'C:\Users\Rapter\Downloads\Play.png')
+icon = Image.open(r'Play.png')
 image = icon.resize((40, 40), Image.ANTIALIAS)
 photo = ImageTk.PhotoImage(image)
 
-icon2 = Image.open(r'C:\Users\Rapter\Downloads\stop-button.png')
+icon2 = Image.open(r'stop-button.png')
 image2 = icon2.resize((40, 40), Image.ANTIALIAS)
 photo2 = ImageTk.PhotoImage(image2)
 
-icon3 = Image.open(r'C:\Users\Rapter\Downloads\pause.png')
+icon3 = Image.open(r'pause.png')
 image3 = icon3.resize((40, 40), Image.ANTIALIAS)
 photo3 = ImageTk.PhotoImage(image3)
 
